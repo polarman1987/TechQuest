@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name= "viewport" content= "width=device-width, initial-scale=1">
+  <title>TechQuest | The Best Tech News</title>
+  <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="quiz.js"></script>
+  <style type="text/css">  
+    #test {
+      border: 2px solid black;
+      background-color: #e6faff;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+<!--NAVIGATION BAR-->
+    <nav class="navbar navbar-inverse">
+        <div class='container'>
+            <div class="nav navbar-header">
+                <a class="navbar-brand" href="home.html">TechQuest</a>
+                  	<button type="button" class="navbar-toggle collapsed"
+                       	data-toggle="collapse"
+                   	    data-target="#myCollapsingList">
+                   	    <span class="icon-bar"></span>
+                   	    <span class="icon-bar"></span>
+                   	    <span class="icon-bar"></span>
+                	  </button>
+            </div>
+          	<ul id="myCollapsingList"
+                class="nav navbar-nav navbar-right collapsed navbar-collapse">
+                 	  <li><a href="home.html">Home</a></li>
+                 	  <li><a href="latestArticles.html">Latest Articles</a></li>
+                 	  <li><a href="articles.html">Articles</a></li>
+                 	  <li><a href="reviews.html">Reviews</a></li>
+                 	  <li><a href="mostRead.html">Most Read</a></li>
+<!--DROPDOWN MENU ADDED FOR EXTRA PAGES--> 	
+                <li class="dropdown"> 
+					          <a href="#" data-toggle="dropdown" class="dropdown-toggle">More<b class="caret"></b></a>
+					          <ul class="dropdown-menu">
+						            <li><a href="tvs.html">Best TV's</a></li>
+						            <li><a href="laptops.html">Best Laptops</a></li>
+						            <li class="active"><a href="quiz.html">Quiz</a></li>
+					          </ul>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+
+<!--QUIZ-->
+<div class="container">
+  <div class="col-md-12">
+    <h2 id="test_status"></h2>
+    <div id="test"></div>
+  </div>
+</div>
+
+<!--FOOTER-->
+  <div class="container text-center">
+<hr />
+  <div class="row">
+      <div class="col-lg-12">
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+      </div>
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="cookies.html">Cookies Policy</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Advertise With Us</a></li>          
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Our Staff</a></li>
+            </ul>
+        </div>  
+    </div>
+</div>
+  <hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="nav nav-pills nav-justified">
+                <!--SOCIAL MEDIA LINKS-->
+                <div class="socialmedia pull-center">       
+                <a href="http:www.facebook.com"><img src="images/facebook.png" alt="facebook" width="25" height="25"></a>
+                <a href="http:www.twitter.com"><img src="images/twitter.jpg" alt="twitter" width="25" height="25"></a>
+                <a href="http:www.instagram.com"><img src="images/insta.png" alt="instagram" width="25" height="25"></a>
+                <a href="https://www.whatsapp.com"><img src="images/whatsapp.jpg" alt="whatsapp" width="25" height="25"></a>
+                <a href="https://www.pinterest.co.uk"><img src="images/pin.png" alt="pinterest" width="25" height="25"></a>
+                <a href="plus.google.com"><img src="https://www.seeklogo.net/wp-content/uploads/2015/09/google-plus-new-icon-logo-400x400.png" alt="google" width="25" height="25"></a>
+                <li><a href="/">© 2017 TechQuest. All Rights Reserved - Andrew Nicolaou</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src='http://code.jquery.com/jquery.min.js'></script>
+<script src='js/bootstrap.min.js'></script>
+</html>
