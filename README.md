@@ -8,7 +8,7 @@ This website contains several articles from a wide range of products including c
 
 How to view the site.
 
-Simply have Bootstrap intalled on your computer and the pages will automatically link to css/bootstrap.min.css
+Simply have Bootstrap intalled on your computer and the pages will automatically link to css/bootstrap.min.css and the bootstrap js files at the end of the body tags.
 
 Motivation behind the site?
 
