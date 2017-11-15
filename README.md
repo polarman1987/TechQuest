@@ -6,6 +6,10 @@ What does this website contain?
 
 This website contains several articles from a wide range of products including cameras, laptops and mobile phones. Users can view quick articles or read in-depth reviews. Users are also able to see a list of the most viewed stories and the ability to test their knowledge by taking our online quiz.
 
+How to view the site.
+
+Simply have Bootstrap intalled on your computer and the pages will automatically link to css/bootstrap.min.css
+
 Motivation behind the site?
 
 The site was created for people who are interested in technology and who would like to know the latest news in the world of technology and gadgets. It can also be used by people who are looking to purchase an expensive piece of technology such as a laptop or TV by viewing the ‘top-5’ lists.
