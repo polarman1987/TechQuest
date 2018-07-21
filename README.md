@@ -1,4 +1,4 @@
-#Synopsis
+<h1>Synopsis</h1>
 
 A website created for people who wish to know the latest news in technology and gadgetry.
 
